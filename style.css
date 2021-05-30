@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    
+}
+
+.container{
+    width: 70%;
+    height: 550px;
+    background-image: url(u5DYae.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 50px;
+    background-size: cover;
+   
+    
+}
+
+
+::selection{
+    color: none;
+    background: none;
+    
+} 
+.calculator{
+    width: 40%;
+    height: 500px;
+    color:black;
+    margin:auto; 
+    top: 40px;
+    background-color: blanchedalmond;
+    position: relative;
+    border-radius: 5%;
+    
+    
+   
+    
+}
+
+
+
+#res{
+     
+    float: left;
+    width: 98%;
+    height: 50px;
+    border-width: 0; 
+    border-radius: 20%;
+    margin-top: 3px;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    text-align: right;
+  }
+
+input:focus{
+    outline: 0;
+}
+ 
+.display{
+    width:100% ;
+    height: 60px;
+    border-bottom: 4px solid black; 
+    
+    
+   
+   
+}
+
+.buttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 85%;
+    
+    
+    
+    
+}
+
+
+
+ 
+ .button{
+     width: 50px;
+     height: 50px; 
+     font-family: 'Orbitron', sans-serif;
+     margin: 10px 20px; 
+     text-align: center;
+     font-size: 2rem;
+     cursor: pointer;
+     font-weight: bold; 
+     border-radius: 40%;
+      
+     
+ }
+
+
+.button:hover{
+    background-color:#323330 ;
+    color: white;
+    transition: 0.4s ease-in-out;
+    
+}
+
+
+
+ 
+
+#equals{
+    background-color: #10ecec;
+} 
+
+
+
+@media  only screen and (max-width:360px){
+
+    .container{ 
+        
+        width: 96%;
+        margin-top: -59px;
+       
+       }
+
+    body{
+        padding-top: 20%;
+    }
+
+    .calculator{ 
+        width: 90%;
+        height: 410px;
+        
+                           
+       }
+       
+       .button{
+        width: 40px;
+        height: 49px;
+
+       }
+
+
+      
+      
+    
+    }
+ 
+     @media  only screen and (max-width:450px){
+
+        .container{
+            width: 97%;
+           margin-left: 5px; 
+        }
+
+
+        .calculator{
+            width: 90%;
+            top: 40px;
+        }
+
+
+        .button{
+            width: 28px;
+            font-size: 1.8rem;
+        
+            
+        }
+
+
+    } 
+
+    @media  only screen and (max-width:1024px){
+
+        .calculator{
+            width: 90%;
+        }
+
+    }
+
+    
+    
+
+
+
+
+    
